@@ -3,11 +3,11 @@ import Month from './Month';
 import Menu from './menu';
 import Section from './section';
 
-function Index() {
+function Investimento() {
     return (
         <div>
-            <Menu />
-            <Month />
+            <Menu className='' props="Area do Investidor" />
+            <Month title1="Poupança" title2="Renda Fixa" title3="Tesouro Direto" title4="Ações"/>
             <div className='ml-5 mt-5'>
                 
                 <h1 className='p-2 text-sm font-bold mb-2'>Acessoria</h1>
@@ -25,4 +25,4 @@ function Index() {
     )
 }
 
-export default Index;
+export default Investimento;
