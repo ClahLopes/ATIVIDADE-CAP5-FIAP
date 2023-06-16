@@ -1,13 +1,9 @@
-import './App.css';
-import Index from './Area Investimento';
+import { AppRoutes } from "./routes";
 
 function App() {
-
   return (
-    <>
-      <Index/>
-    </>
-  )
+        <AppRoutes />
+  );
 }
 
 export default App;
