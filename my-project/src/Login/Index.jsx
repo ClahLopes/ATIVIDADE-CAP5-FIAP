@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../assets/logo.svg';
-import { Button } from './Button';
+import { ButtonClaro } from './ButtonClaro';
+import { ButtonEscuro } from './ButtonEscuro';
 
 function Login() {
     return (
@@ -37,7 +38,10 @@ function Login() {
 
             </div>
 
-            <Button/>
+            <div className='flex ml-10 mt-5 gap-5'>
+                <ButtonClaro props="CADASTRAR" />
+                <ButtonEscuro props="ENTRAR" />
+            </div>
         </div>
     )
 }
